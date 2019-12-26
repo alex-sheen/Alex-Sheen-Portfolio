@@ -14,7 +14,7 @@ public class MyRunnable implements Runnable {
 
     int counter = 0;
     double number = 0;
-    for(int z = 0;z<SpicyWaffles.numNotes;z++){
+    for(int z = 0;z<GenerateMusic.numNotes;z++){
           StdDraw.clear();
           StdDraw.setPenColor(StdDraw.BLACK);
           Font font = new Font("Arial",10,10);
@@ -48,19 +48,19 @@ public class MyRunnable implements Runnable {
 
         StdDraw.line(-12,8,12,8);
 
-        for (int i = 0; i < SpicyWaffles.numNotes; i++) {
-            SpicyWaffles.dots[i][1] -= (2.0 * SpicyWaffles.durationPub[counter]);
-            StdDraw.filledCircle(SpicyWaffles.dots[i][0], SpicyWaffles.dots[i][1], 0.5);
+        for (int i = 0; i < GenerateMusic.numNotes; i++) {
+            GenerateMusic.dots[i][1] -= (2.0 * GenerateMusic.durationPub[counter]);
+            StdDraw.filledCircle(GenerateMusic.dots[i][0], GenerateMusic.dots[i][1], 0.5);
         }
         StdDraw.setPenColor(StdDraw.WHITE);
 
-        number -=(2*SpicyWaffles.durationPub[counter]);
+        number -=(2*GenerateMusic.durationPub[counter]);
         StdDraw.filledRectangle(0.0, number, 12.0, 3.0);
         StdDraw.show();
 
         try
         {
-            Thread.sleep((long)(1000*SpicyWaffles.durationPub[counter]));
+            Thread.sleep((long)(1000*GenerateMusic.durationPub[counter]));
         }
         catch(InterruptedException ex)
         {

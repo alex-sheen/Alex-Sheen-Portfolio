@@ -1,5 +1,5 @@
 /*
-Spicy Waffles - Generating Random Music
+Generating Random Music
 
 Generating the music :
   Our music contains two sections.
@@ -10,7 +10,7 @@ Generating the music :
       The random notes play sine, square, and sawtooth waves.
 
 Visualization :
-  Our MyRunnable.java reads pitches and durations from SpicyWaffles.java and plays notes in sync with the music.
+  Our MyRunnable.java reads pitches and durations from GenerateMusic.java and plays notes in sync with the music.
     To do this, each note is queued up based on its duration. Once the song starts playing,
     each note is shifted down until they reach the line, at which time the corresponding
     note is played through the speakers.
@@ -21,7 +21,7 @@ Visualization :
 */
 
 import java.io.*;
-public class SpicyWaffles {
+public class GenerateMusic {
 
   public static int numNotes = 0;
   public static int[] pitchPub = new int[500];

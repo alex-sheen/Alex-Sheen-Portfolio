@@ -1,5 +1,5 @@
 import java.io.*;
-public class bakeWaffles {
+public class GenerateSheetMusic {
 
 //randRange [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 public static int randRange(int min, int max){
