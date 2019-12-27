@@ -1,0 +1,47 @@
+table, th, td {
+   border: 1px solid black;
+}
+
+html {
+
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: CadetBlue;
+
+}
+
+#right{
+font-size: 20px;
+}
+
+#back {
+  font-size: 20px;  
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: left;
+
+  width : 25%;
+
+  padding: 10px 10px 10px;
+  border: 3px solid black;
+}
+
+h1 {
+
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+  padding: 20px 0;  
+  color: black
+  
+}
+
+p, li {
+
+  font-size: 16px;  
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: left;
+
+}
+
