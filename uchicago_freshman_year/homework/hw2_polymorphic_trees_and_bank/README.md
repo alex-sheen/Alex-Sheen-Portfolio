@@ -37,4 +37,4 @@ To run Racket projects:
   Click the run button to run the code.
 
 Link to website:
-https://alex-sheen.github.io/code/
+https://alex-sheen.github.io/pages/code.html

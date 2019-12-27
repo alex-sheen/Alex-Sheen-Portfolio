@@ -9,4 +9,4 @@ This project takes in a given text, such as the book "Huckleberry Finn", and com
 
 
 Link to website:
-https://alex-sheen.github.io/code/
+https://alex-sheen.github.io/pages/code.html

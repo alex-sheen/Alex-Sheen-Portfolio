@@ -1,3 +1,3 @@
 # alex-sheen-portfolio
 
-https://alex-sheen.github.io/code/
+https://alex-sheen.github.io/pages/code.html
