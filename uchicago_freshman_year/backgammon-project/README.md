@@ -1,6 +1,6 @@
 # alex-sheen-portfolio
 
-Backgammon Project
+Backgammon Final Project for CMSC 15100 at The University of Chicago
 
 See website for information about this project!
 
