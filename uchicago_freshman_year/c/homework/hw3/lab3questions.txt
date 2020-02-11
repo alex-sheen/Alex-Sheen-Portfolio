@@ -1,0 +1,25 @@
+ Pre-lab 3 questions 
+Name: Alex Sheen
+Cnet ID: alexsheen
+Lab start time: 6:30
+Note: There may be more than one answer. Make sure you leave all that apply.
+1. What are the common uses of #define?
+(Remove any answers that are not true)
+a) making sure a .h file is not read twice during a single compilation passes
+c) defining constants to use throughout the program
+d) turning on and off debugging statements
+
+2. Which are true statements about statically-allocated arrays
+ (e.g. int x[3][4])? (Remove any answers that are not true)
+b) Passing this array into a function will pass the address of the
+beginning element, not copy the entire array. Therefore, any changes made 
+inside the function will be present after the function ends.
+c) You can change the size of an array if you wish by redeclaring it. 
+d) Arrays and pointers are very related.
+
+3. Fill in the statements about statically-allocated array int ar[5][6]?
+a) The last item in the first row of ar is: ar[0][5] 
+a) The last item in the last row of ar is: ar[4][29]
+a) The first item in the last row of ar is: ar[4][23]
+
+

@@ -1,0 +1,66 @@
+1. Comment out #include <stdio.h> from errorwarmup1.c (place "//" before it)
+1)
+
+errorwarmup1.c:16:2: warning: implicitly declaring library function 'printf' with
+      type 'int (const char *, ...)' [-Wimplicit-function-declaration]
+        printf("Integer: %d\n",ival);
+        ^
+errorwarmup1.c:16:2: note: include the header <stdio.h> or explicitly provide a
+      declaration for 'printf'
+1 warning generated.
+
+2.  Declare the same variable name twice
+2)
+
+errorwarmup1.c:67:8: error: redefinition of 'cel'
+        float cel = 4;
+              ^
+errorwarmup1.c:66:8: note: previous definition is here
+        float cel;
+              ^
+1 error generated.
+
+3. Remove a variable declaration
+3)
+
+errorwarmup1.c:67:2: error: use of undeclared identifier 'cel'
+        cel = (fahr-32) * (5.0/9.0);
+        ^
+errorwarmup1.c:68:9: error: use of undeclared identifier 'cel'
+        return cel;
+               ^
+2 errors generated.
+
+4. Misspell a variable name or function name
+4)
+
+errorwarmup1.c:67:2: error: use of undeclared identifier 'cellll'
+        cellll = (fahr-32) * (5.0/9.0);
+        ^
+1 error generated.
+
+5. Remove a closed curly brace
+5)
+
+errorwarmup1.c:74:1: error: function definition is not allowed here
+{
+^
+errorwarmup1.c:87:1: error: function definition is not allowed here
+{
+^
+errorwarmup1.c:114:1: error: expected '}'
+^
+errorwarmup1.c:65:1: note: to match this '{'
+{
+^
+3 errors generated.
+
+6.  Remove a semi-colon from the end of one of the lines
+6)
+
+errorwarmup1.c:66:11: error: expected ';' at end of declaration
+        float cel
+                 ^
+                 ;
+1 error generated.
+ 
